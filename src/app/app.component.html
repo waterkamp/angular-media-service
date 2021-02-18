@@ -2,3 +2,9 @@
 <app-media-service-output></app-media-service-output>
 <app-media query="(min-width: 768px)">is desktop (media-component!)</app-media>
 <app-media query="(max-width: 767px)">is mobile (media-component!)</app-media>
+<p *media="'(min-width: 768px)'">
+  is desktop (media-directive!)
+</p>
+<p *media="'(max-width: 767px)'">
+  is mobile (media-directive!)
+</p>

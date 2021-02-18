@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MediaServiceOutputComponent } from './components/media-service-output/media-service-output.component';
 import { MediaComponent } from './components/media/media.component';
+import { MediaDirective } from './directives/media.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     MediaServiceOutputComponent,
-    MediaComponent
+    MediaComponent,
+    MediaDirective
   ],
   imports: [
     BrowserModule,
