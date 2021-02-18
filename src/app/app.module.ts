@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MediaServiceOutputComponent } from './components/media-service-output/media-service-output.component';
+import { MediaComponent } from './components/media/media.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MediaServiceOutputComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,
